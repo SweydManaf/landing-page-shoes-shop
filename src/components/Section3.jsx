@@ -18,10 +18,10 @@ export default function Section3() {
         <input
           type="text"
           placeholder="ENTER YOUR EMAIL"
-          className="bg-white border-[1px] button-box-shadow  md:w-[603px] h-max py-5 pr-[160px] pl-[20px] font-semibold outline-none"
+          className="bg-white border-[1px] md:w-[603px] h-max py-5 pr-[160px] pl-[20px] font-semibold outline-none shadow-button-box-shadow md:shadow-none hover:shadow-button-box-shadow focus:shadow-button-box-shadow ease-in duration-200 placeholder:tracking-wider tracking-wider"
         />
 
-        <button className="bg-[#30F] text-white md:text-black text-3xl py-4 px-14 button-input-box-shadow w-full md:w-min">
+        <button className="bg-[#30F] text-white text-3xl py-4 px-14 w-full md:w-min shadow-button-box-shadow md:shadow-none hover:shadow-button-box-shadow ease-in duration-200">
           Subscribe
         </button>
       </div>
