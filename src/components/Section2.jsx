@@ -4,7 +4,7 @@ import UnderlineYellowImage from "../assets/underline-yellow.svg";
 
 export default function Section2() {
   return (
-    <section className="bg-[#0E2624] flex flex-col md:pl-20 pt-16 relative overflow-x-hidden overflow-y-clip">
+    <section className="bg-[#0E2624] flex flex-col md:pl-20 pt-16 relative overflow-x-hidden md:overflow-visible">
       <div className="flex flex-col md:flex-row items-center gap-6 ">
         <img src={StarIcon} alt="" className="w-16 md:w-max" />
         <h2 className="text-white text-4xl md:text-6xl uppercase">
