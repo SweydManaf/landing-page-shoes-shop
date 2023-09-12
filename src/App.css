@@ -1,0 +1,19 @@
+.shoes1-box-shadow {
+  box-shadow: 10px 10px 0px 0px #30f;
+}
+
+.button-box-shadow {
+  box-shadow: 5px 5px 0px 0px #000;
+}
+
+.button-input-box-shadow {
+  box-shadow: 4px 4px 0px 0px #000;
+}
+
+.input-box-shadow {
+  box-shadow: 4px 4px 0px 0px #000;
+}
+
+.text-shadow {
+  text-shadow: 4px 4px 0px #ffd000;
+}
