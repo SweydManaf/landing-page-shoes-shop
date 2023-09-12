@@ -17,13 +17,17 @@ export default function Header() {
       <nav>
         <ul className="flex justify-between items-center">
           <li className="uppercase hidden md:block">
-            <a href="">Home</a>
+            <a href="" onClick={(e) => e.preventDefault()}>
+              Home
+            </a>
           </li>
           <li className="uppercase hidden md:block">
-            <a href="">Women</a>
+            <a href="" onClick={(e) => e.preventDefault()}>
+              Women
+            </a>
           </li>
           <li className="">
-            <a href="">
+            <a href="" onClick={(e) => e.preventDefault()}>
               <img
                 src={LogoNike}
                 alt="Logo Nike"
@@ -39,39 +43,51 @@ export default function Header() {
             }}
           >
             {opened ? (
-              <a href="">
+              <a href="" onClick={(e) => e.preventDefault()}>
                 <img src={CloseIcon} alt="Menu Hamburguer" />
               </a>
             ) : (
-              <a href="">
+              <a href="" onClick={(e) => e.preventDefault()}>
                 <img src={MenuIcon} alt="Menu Hamburguer" />
               </a>
             )}
           </li>
           <li className="uppercase hidden md:block">
-            <a href="">Men</a>
+            <a href="" onClick={(e) => e.preventDefault()}>
+              Men
+            </a>
           </li>
           <li className="uppercase hidden md:block">
-            <a href="">Kids</a>
+            <a href="" onClick={(e) => e.preventDefault()}>
+              Kids
+            </a>
           </li>
         </ul>
       </nav>
       {opened && (
         <ul className="w-screen h-screen pl-5 pr-10 mt-16 flex flex-col gap-16">
           <li className="flex justify-between">
-            <a href="">Home</a>
+            <a href="" onClick={(e) => e.preventDefault()}>
+              Home
+            </a>
             <img src={Number2Icon} alt="" />
           </li>
           <li className="flex justify-between">
-            <a href="">Women</a>
+            <a href="" onClick={(e) => e.preventDefault()}>
+              Women
+            </a>
             <img src={Number3Icon} alt="" />
           </li>
           <li className="flex justify-between">
-            <a href="">men</a>
+            <a href="" onClick={(e) => e.preventDefault()}>
+              men
+            </a>
             <img src={Number4Icon} alt="" />
           </li>
           <li className="flex justify-between">
-            <a href="">kids</a>
+            <a href="" onClick={(e) => e.preventDefault()}>
+              kids
+            </a>
             <img src={Number5Icon} alt="" />
           </li>
         </ul>
