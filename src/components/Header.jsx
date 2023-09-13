@@ -8,6 +8,7 @@ import Number4Icon from "../assets/number-4-icon.svg";
 import Number5Icon from "../assets/number-5-icon.svg";
 
 import { useState } from "react";
+import { Reveal } from "react-awesome-reveal";
 
 export default function Header() {
   const [opened, setIsOpened] = useState(false);
@@ -65,32 +66,34 @@ export default function Header() {
         </ul>
       </nav>
       {opened && (
-        <ul className="bg-[#FFD89F] w-screen h-screen pl-5 pr-10 mt-16 flex flex-col gap-16">
-          <li className="flex justify-between">
-            <a href="" onClick={(e) => e.preventDefault()}>
-              Home
-            </a>
-            <img src={Number2Icon} alt="" />
-          </li>
-          <li className="flex justify-between">
-            <a href="" onClick={(e) => e.preventDefault()}>
-              Women
-            </a>
-            <img src={Number3Icon} alt="" />
-          </li>
-          <li className="flex justify-between">
-            <a href="" onClick={(e) => e.preventDefault()}>
-              men
-            </a>
-            <img src={Number4Icon} alt="" />
-          </li>
-          <li className="flex justify-between">
-            <a href="" onClick={(e) => e.preventDefault()}>
-              kids
-            </a>
-            <img src={Number5Icon} alt="" />
-          </li>
-        </ul>
+        <Reveal>
+          <ul className="bg-[#FFD89F] w-screen h-screen pl-5 pr-10 mt-16 flex flex-col gap-16">
+            <li className="flex justify-between">
+              <a href="" onClick={(e) => e.preventDefault()}>
+                Home
+              </a>
+              <img src={Number2Icon} alt="" />
+            </li>
+            <li className="flex justify-between">
+              <a href="" onClick={(e) => e.preventDefault()}>
+                Women
+              </a>
+              <img src={Number3Icon} alt="" />
+            </li>
+            <li className="flex justify-between">
+              <a href="" onClick={(e) => e.preventDefault()}>
+                men
+              </a>
+              <img src={Number4Icon} alt="" />
+            </li>
+            <li className="flex justify-between">
+              <a href="" onClick={(e) => e.preventDefault()}>
+                kids
+              </a>
+              <img src={Number5Icon} alt="" />
+            </li>
+          </ul>
+        </Reveal>
       )}
     </header>
   );
