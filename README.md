@@ -1,4 +1,4 @@
-<h1 align="center"> Landing Page - Shoes Shop </h1>
+<h1 align="center"> Landing Page </br> Shoes Shop </h1>
 
 <p align="center">
  <br/>
@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img src="../previews/" width="100%">
+  <img src="./.github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -26,6 +26,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - ReactJS com Vite
+- React Reveal
 - Tailwind
 - Figma
 
