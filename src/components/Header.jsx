@@ -65,7 +65,7 @@ export default function Header() {
         </ul>
       </nav>
       {opened && (
-        <ul className="w-screen h-screen pl-5 pr-10 mt-16 flex flex-col gap-16">
+        <ul className="bg-[#FFD89F] w-screen h-screen pl-5 pr-10 mt-16 flex flex-col gap-16">
           <li className="flex justify-between">
             <a href="" onClick={(e) => e.preventDefault()}>
               Home

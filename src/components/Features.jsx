@@ -2,13 +2,13 @@ import StarIcon from "../assets/star-icon.svg";
 import Shoes2 from "../assets/shoes-2.png";
 import UnderlineYellowImage from "../assets/underline-yellow.svg";
 
-export default function Section2() {
+export default function Features() {
   return (
     <section className="bg-[#0E2624] flex flex-col md:pl-20 pt-16 relative overflow-x-hidden md:overflow-visible">
       <div className="flex flex-col md:flex-row items-center gap-6 ">
         <img src={StarIcon} alt="" className="w-16 md:w-max" />
         <h2 className="text-white text-4xl md:text-6xl uppercase">
-          why you will want it?
+          Why would you want that?
           <img
             src={UnderlineYellowImage}
             alt=""
@@ -18,7 +18,11 @@ export default function Section2() {
       </div>
 
       <div className="hidden md:flex justify-between items-center ">
-        <img src={Shoes2} alt="" className="w-[980px] translate-y-52" />
+        <img
+          src={Shoes2}
+          alt=""
+          className="w-[631px] translate-y-40 rotate-[-15deg]"
+        />
 
         <div className="text-white text-right flex flex-col gap-6">
           <div className="flex gap-11 pl-10 pr-20">
@@ -83,7 +87,7 @@ export default function Section2() {
       <img
         src={Shoes2}
         alt=""
-        className="block md:hidden w-full scale-150 translate-x-16 "
+        className="block md:hidden w-full translate-y-28 -mt-16"
       />
 
       <div className="bg-white text-[#0E2624] pt-20 pb-10 flex md:hidden justify-between items-center ">

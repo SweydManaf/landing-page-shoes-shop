@@ -1,18 +1,18 @@
 import "./App.css";
 
 import Header from "./components/Header";
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
+import HeroSection from "./components/HeroSection";
+import Features from "./components/Features";
+import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <main className="bg-[#FFD89F]">
       <Header />
-      <Section1 />
-      <Section2 />
-      <Section3 />
+      <HeroSection />
+      <Features />
+      <Newsletter />
       <Footer />
     </main>
   );
