@@ -9,11 +9,7 @@ export default function Features() {
         <img src={StarIcon} alt="" className="w-16 md:w-max" />
         <h2 className="text-white text-4xl md:text-6xl uppercase">
           Why would you want that?
-          <img
-            src={UnderlineYellowImage}
-            alt=""
-            className="m-auto w-full md:w-min"
-          />
+          <img src={UnderlineYellowImage} alt="" className="m-auto w-full" />
         </h2>
       </div>
 
