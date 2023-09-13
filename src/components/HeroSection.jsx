@@ -1,4 +1,5 @@
 import { Fade, Zoom } from "react-awesome-reveal";
+import { TypeAnimation } from "react-type-animation";
 import Shoes1 from "../assets/shoes-1.png";
 
 export default function HeroSection() {
@@ -7,9 +8,21 @@ export default function HeroSection() {
       <section className="bg-[#FFD89F] uppercase flex flex-col gap-7 md:gap-0 md:flex-row justify-between px-5 md:px-20 py-10 md:py-12 ">
         <div className="flex flex-col gap-20 md:mt-20">
           <div>
-            <h2 className="text-4xl md:text-7xl ">
-              Fly high with the legendary
-            </h2>
+            <TypeAnimation
+              sequence={[
+                "Fly high with the legendary",
+                1000,
+                "Fly high with your dreams",
+                1000,
+                "Feeling unstoppable",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              className="text-4xl md:text-7xl"
+              repeat={Infinity}
+              cursor={false}
+            />
             <p className="text-6xl md:text-5xl">nike air jordan 1</p>
           </div>
           <div className="md:flex gap-10 items-center hidden">
